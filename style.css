@@ -337,12 +337,13 @@ main .recent-orders a{
 }
 .right .top{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     justify-content: end;
 }
 .right .top .profile {
     display: flex;
     gap: 1rem;
+    margin-right: 0px;
     text-align: right;
 }
 .right .top button{
@@ -465,6 +466,7 @@ main .recent-orders a{
         margin-right: -30px;
     }
     .right .top .profile{
+        position: absolute;
         right: 0;
     }
     main{
