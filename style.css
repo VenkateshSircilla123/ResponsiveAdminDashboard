@@ -461,6 +461,12 @@ main .recent-orders a{
         margin: 0;
         z-index: 2;
     }
+    .right .theme-toggler{
+        margin-right: -30px;
+    }
+    .right .top .profile{
+        right: 0;
+    }
     main{
         margin-top: 5rem;
         /* width: 100%; */
